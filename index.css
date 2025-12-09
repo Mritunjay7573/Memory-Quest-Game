@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+* {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.container {
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+h1 {
+    font-size: 5.0rem;
+    font-weight: 800;
+    color: #5040da;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.start-btn {
+    display: inline-block;
+    padding: 18px 55px;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: rgb(233, 231, 231);
+    text-decoration: none;
+    background: linear-gradient(90deg, #3799c3, #7457d4);
+    border-radius: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    position: relative;
+    overflow: hidden;
+    border: solid 4px black;
+}
+
+.start-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,0.4);
+    transition: 0.4s;
+}
+
+.start-btn:hover::before {
+    left: 100%;
+}
+
+.start-btn:hover {
+    transform: scale(1.12);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.35);
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.4;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.shape1 {
+    width: 150px;
+    height: 150px;
+    background: #ff9a9e;
+    top: 5%;
+    left: 10%;
+}
+
+.shape2 {
+    width: 200px;
+    height: 200px;
+    background: #fad0c4;
+    bottom: 10%;
+    right: 15%;
+}
+
+.shape3 {
+    width: 120px;
+    height: 120px;
+    background: #fbc2eb;
+    bottom: 20%;
+    left: 5%;
+    animation-delay: 1s;
+}
+
+
