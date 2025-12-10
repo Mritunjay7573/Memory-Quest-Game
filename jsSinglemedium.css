@@ -1,7 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: darkslategrey;
+    
 }
 header{
     display: flex;
@@ -26,6 +26,9 @@ header{
 h1{
     flex: 1;
     text-align: center;
+}
+h2{
+    color: white;
 }
 #space1{
     width: 40px;
@@ -116,8 +119,14 @@ h1{
     display: block;
     cursor: pointer;
     text-align: center;
-    margin: 10px auto;
+    margin: 40px auto;
+    margin-bottom: 100%;
     border-radius: 20px;
     width: 100px;
     height: 30px;
+}
+
+body{
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    overflow: hidden;
 }
