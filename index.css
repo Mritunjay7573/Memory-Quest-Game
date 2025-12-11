@@ -39,7 +39,6 @@ h1 {
     background: linear-gradient(90deg, #3799c3, #7457d4);
     border-radius: 60px;
     cursor: pointer;
-    transition: 0.3s;
     box-shadow: 0 6px 15px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
@@ -47,14 +46,7 @@ h1 {
 }
 
 .start-btn::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    height: 100%;
-    width: 100%;
-    background: rgba(255,255,255,0.4);
-    transition: 0.4s;
+    display: none;
 }
 
 .start-btn:hover::before {
