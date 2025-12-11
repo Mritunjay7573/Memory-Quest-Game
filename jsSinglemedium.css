@@ -130,3 +130,11 @@ body{
     background: linear-gradient(135deg, #a8edea, #fed6e3);
     overflow: hidden;
 }
+
+@media (max-width: 520px){
+    #main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+}

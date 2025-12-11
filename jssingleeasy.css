@@ -41,6 +41,7 @@ h2{
     justify-content: space-between;
     background-color: #1e2f2f;
     border-bottom: 1px solid #143030;
+    width: auto;
 }
 .score-box , .time-box{
     text-align: center;
@@ -130,4 +131,14 @@ h2{
 body{
     background: linear-gradient(135deg, #a8edea, #fed6e3);
     overflow: hidden;
+}
+
+@media (max-width: 455px){
+    #main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat();
+        gap: 40px;
+        margin-top: 90px;
+    }
 }

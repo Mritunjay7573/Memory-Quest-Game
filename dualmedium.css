@@ -130,3 +130,30 @@ h1{
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 620px) and (min-width: 500px){
+    #main{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 371px){
+    #main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 370px){
+    #main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        margin-top: 10px;
+    }
+}
