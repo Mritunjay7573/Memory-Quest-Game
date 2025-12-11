@@ -46,14 +46,7 @@ h1 {
 }
 
 .mode-btn::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    height: 100%;
-    width: 100%;
-    background: rgba(255,255,255,0.4);
-    transition: 0.4s;
+    display: none;
 }
 
 .mode-btn:hover::before {
@@ -65,7 +58,6 @@ h1 {
     box-shadow: 0 10px 22px rgba(0,0,0,0.35);
 }
 
-/* Shapes */
 .shape {
     position: absolute;
     border-radius: 50%;
