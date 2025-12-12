@@ -42,7 +42,7 @@ h1 {
     box-shadow: 0 6px 15px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
-    border: solid 2px black;
+    border: solid 1px black;
 }
 
 .start-btn::before {
