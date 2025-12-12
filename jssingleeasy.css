@@ -145,23 +145,6 @@ h2{
 }
 
 
-@media (max-width: 660px) and (min-width: 481px){
-    #main{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 480px){
-    #main{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin-top: 10px;
-        gap: 10px;
-    }
-}
-
-
 .shape {
     position: absolute;
     border-radius: 50%;
@@ -268,4 +251,20 @@ h2{
     margin-top: 150px;
     justify-items: center;
     justify-content: center;
+}
+
+@media (max-width: 660px) and (min-width: 481px){
+    #main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 480px){
+    #main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
+        gap: 10px;
+    }
 }

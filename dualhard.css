@@ -149,38 +149,6 @@ h1{
     width: 110px
 }
 
-@media (max-width: 760px) and (min-width: 631px){
-     #main{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        margin-top: 10px;
-    }
-}
-
-@media (max-width: 630px) and (min-width: 511px){
-     #main{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        margin-top: 10px;
-    }
-}
-
-@media (max-width: 511px){
-     #main{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        margin-top: 10px;
-    }
-
-    .card{
-        width: 90px;
-        height: 90px;
-    }
-}
-
 
 
 .shape {
@@ -289,4 +257,36 @@ h1{
     margin-top: 80px;
     justify-items: center;
     justify-content: center;
+}
+
+@media (max-width: 760px) and (min-width: 631px){
+     #main{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 630px) and (min-width: 511px){
+     #main{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 511px){
+     #main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        margin-top: 10px;
+    }
+
+    .card{
+        width: 90px;
+        height: 90px;
+    }
 }
