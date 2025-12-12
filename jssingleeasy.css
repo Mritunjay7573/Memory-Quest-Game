@@ -192,3 +192,30 @@ body{
     transform: scale(1.08);
     box-shadow: 0 0 25px #1aa5e6;
 }
+
+.shape4 {
+    width: 130px;
+    height: 130px;
+    background: #eabc88;
+    top: 5%;
+    right: 18%;
+    animation-delay: 1s;
+}
+
+.shape5 {
+    width: 80px;
+    height: 80px;
+    background: #b276c2;
+    top: 15%;
+    left: 50%;
+    animation-delay: 1s;
+}
+
+.shape6 {
+    width: 95px;
+    height: 95px;
+    background: #76a2d7;
+    bottom: 10%;
+    left: 30%;
+    animation-delay: 1s;
+}

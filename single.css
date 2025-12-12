@@ -68,24 +68,24 @@ h1 {
 .shape1 {
     width: 150px;
     height: 150px;
-    background: #ff9a9e;
+    background: #e67d81;
     top: 5%;
-    left: 10%;
+    left: 13%;
 }
 
 .shape2 {
     width: 200px;
     height: 200px;
-    background: #fad0c4;
-    bottom: 10%;
-    right: 15%;
+    background: #eca490;
+    bottom: 18%;
+    right: 12%;
 }
 
 .shape3 {
     width: 120px;
     height: 120px;
-    background: #fbc2eb;
-    bottom: 20%;
+    background: #e9a8d7;
+    bottom: 35%;
     left: 5%;
     animation-delay: 1s;
 }
@@ -119,4 +119,31 @@ h1 {
 .back-btn:hover {
     transform: scale(1.12);
     box-shadow: 0 10px 22px rgba(0,0,0,0.35);
+}
+
+.shape4 {
+    width: 130px;
+    height: 130px;
+    background: #eabc88;
+    top: 5%;
+    right: 18%;
+    animation-delay: 1s;
+}
+
+.shape5 {
+    width: 80px;
+    height: 80px;
+    background: #b276c2;
+    top: 15%;
+    left: 50%;
+    animation-delay: 1s;
+}
+
+.shape6 {
+    width: 95px;
+    height: 95px;
+    background: #76a2d7;
+    bottom: 10%;
+    left: 30%;
+    animation-delay: 1s;
 }
