@@ -1,8 +1,9 @@
 body{
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(2000deg, #a8edea, #fed6e3);
-
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 header{
     display: flex;
@@ -131,7 +132,7 @@ h2{
     cursor: pointer;
     text-align: center;
     margin: 40px auto;
-    margin-bottom: 100%;
+    margin-bottom: 40px;
     border-radius: 20px;
     width: 100px;
     height: 30px;
@@ -143,10 +144,6 @@ h2{
     width: 110px
 }
 
-body{
-    background: linear-gradient(135deg, #a8edea, #fed6e3);
-    overflow: hidden;
-}
 
 @media (max-width: 660px) and (min-width: 481px){
     #main{
