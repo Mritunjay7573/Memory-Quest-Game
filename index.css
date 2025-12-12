@@ -42,7 +42,7 @@ h1 {
     box-shadow: 0 6px 15px rgba(0,0,0,0.25);
     position: relative;
     overflow: hidden;
-    border: solid 4px black;
+    border: solid 2px black;
 }
 
 .start-btn::before {
@@ -102,4 +102,8 @@ h1 {
     animation-delay: 1s;
 }
 
-
+@media (max-width: 455px){
+    h1{
+        font-size: 4.0rem;
+    }
+}

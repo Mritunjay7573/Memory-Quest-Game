@@ -134,62 +134,12 @@ h2{
     height: 30px;
 }
 
-body{
-    background: linear-gradient(135deg, #a8edea, #fed6e3);
-    overflow: hidden;
-}
-
-.shape {
-    position: absolute;
-    border-radius: 50%;
-    opacity: 0.4;
-    animation: float 6s ease-in-out infinite;
-}
-
-.shape1 {
-    width: 150px;
-    height: 150px;
-    background: #ff9a9e;
-    top: 5%;
-    left: 10%;
-}
-
-.shape2 {
-    width: 200px;
-    height: 200px;
-    background: #fad0c4;
-    bottom: 10%;
-    right: 15%;
-}
-
-.shape3 {
-    width: 120px;
-    height: 120px;
-    background: #fbc2eb;
-    bottom: 20%;
-    left: 5%;
-    animation-delay: 1s;
-}
-
-#restart{
-    background: #7bd4e4;
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
-    width: 140px;
-    height: 70px;
-    display: block;
-    margin: 40px auto;
-    margin-bottom: 100%;
-    font-weight: 700;
-    font-size: 2rem;
-    border: solid 4px black;
-    color: #111111d2;
-}
-
-#restart:hover{
-    background: rgba(7, 7, 7, 0.759);
-    color: #7bd4e4;
-    transform: scale(1.08);
-    box-shadow: 0 0 25px #1aa5e6;
+@media (max-width: 720px){
+    #main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        gap: 40px;
+        margin-top: 90px;
+    }
 }
